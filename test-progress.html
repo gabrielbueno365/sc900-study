@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste Sistema de Progresso - Copilot Specialist</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      body {
+        padding: 20px;
+        margin-top: 80px;
+      }
+      .test-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      .test-section {
+        margin: 30px 0;
+        padding: 20px;
+        border: 1px solid #e1e8ed;
+        border-radius: 8px;
+      }
+      .test-title {
+        color: #2c3e50;
+        margin-bottom: 15px;
+        font-size: 1.3em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">🤖 Copilot Specialist - Teste</div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">🏠 Voltar</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="test-container">
+      <div class="page-header">
+        <h1>🧪 Teste do Sistema de Progresso</h1>
+        <p><strong>Validação completa do tracking persistente</strong></p>
+      </div>
+
+      <!-- TESTE FASE 1 -->
+      <div class="test-section">
+        <h2 class="test-title">📚 Teste Fase 1 - Fundações</h2>
+        <ul class="checklist fase1" data-section="fase1">
+          <li>Configurar Microsoft 365 tenant</li>
+          <li>Habilitar Microsoft Search Admin Center</li>
+          <li>Criar primeiro agente no Copilot Studio</li>
+          <li>Implementar políticas básicas de DLP</li>
+          <li>Executar piloto com 10-25 usuários</li>
+        </ul>
+      </div>
+
+      <!-- TESTE FASE 2 -->
+      <div class="test-section">
+        <h2 class="test-title">🛠️ Teste Fase 2 - Desenvolvimento</h2>
+        <ul class="checklist fase2" data-section="fase2">
+          <li>Criar Graph Connector personalizado</li>
+          <li>Implementar Microsoft Search avançado</li>
+          <li>Desenvolver agente RH especializado</li>
+          <li>Integrar Power BI Copilot</li>
+          <li>Configurar Knowledge Management com Viva Topics</li>
+        </ul>
+      </div>
+
+      <!-- TESTE FASE 3 -->
+      <div class="test-section">
+        <h2 class="test-title">🎖️ Teste Fase 3 - Especialização</h2>
+        <ul class="checklist fase3" data-section="fase3">
+          <li>Executar rollout para 50+ usuários</li>
+          <li>Implementar Microsoft Search Enterprise analytics</li>
+          <li>Configurar auditoria avançada</li>
+          <li>Criar blueprint reutilizável</li>
+          <li>Apresentar proposta comercial</li>
+        </ul>
+      </div>
+
+      <!-- TESTE RECURSOS -->
+      <div class="test-section">
+        <h2 class="test-title">📚 Teste Recursos de Estudo</h2>
+        <ul class="checklist recursos" data-section="recursos">
+          <li>Estudar documentação oficial Microsoft 365 Copilot</li>
+          <li>Completar learning path Copilot Studio</li>
+          <li>Praticar com Microsoft Search APIs</li>
+          <li>Revisar materiais de certificação AI-102</li>
+        </ul>
+      </div>
+
+      <!-- INFORMAÇÕES DO TESTE -->
+      <div class="test-section" style="background: #f8f9fa">
+        <h3>✅ Funcionalidades Testadas:</h3>
+        <ul style="list-style: none; padding: 0">
+          <li>📊 <strong>Salvamento automático</strong> - localStorage</li>
+          <li>
+            🔄 <strong>Persistência entre sessões</strong> - fechar/reabrir
+            página
+          </li>
+          <li>
+            📈 <strong>Barras de progresso</strong> - atualização em tempo real
+          </li>
+          <li>🎨 <strong>Feedback visual</strong> - estilo Notion/Loop</li>
+          <li>
+            📱 <strong>Painel de estatísticas</strong> - canto superior direito
+          </li>
+          <li>📥 <strong>Exportar progresso</strong> - botão no painel</li>
+          <li>🗑️ <strong>Reset progresso</strong> - botão de reset</li>
+          <li>✨ <strong>Animações e transições</strong> - UX aprimorada</li>
+        </ul>
+
+        <h3 style="margin-top: 20px">🎯 Como Testar:</h3>
+        <ol>
+          <li>Marque alguns checkboxes nesta página</li>
+          <li>Observe o painel de estatísticas (canto superior direito)</li>
+          <li>Recarregue a página - itens devem permanecer marcados</li>
+          <li>Teste exportar e resetar progresso</li>
+          <li>Navegue para outras páginas e volte</li>
+        </ol>
+      </div>
+
+      <!-- NAVIGATION BUTTONS -->
+      <div style="text-align: center; margin-top: 30px">
+        <a href="pages/fase1.html" class="btn">📚 Testar Fase 1 Real</a>
+        <a href="pages/fase2.html" class="btn">🛠️ Testar Fase 2 Real</a>
+        <a href="pages/fase3.html" class="btn">🎖️ Testar Fase 3 Real</a>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      // Adicionar logs para debug
+      console.log("🧪 Página de teste carregada");
+
+      // Verificar se localStorage está funcionando
+      setTimeout(() => {
+        const progress = localStorage.getItem("copilotProgress");
+        const metadata = localStorage.getItem("copilotMetadata");
+        console.log("📊 Progresso salvo:", progress);
+        console.log("📈 Metadata:", metadata);
+      }, 1000);
+    </script>
+  </body>
+</html>
